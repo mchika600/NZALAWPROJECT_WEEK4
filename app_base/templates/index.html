@@ -1,0 +1,68 @@
+<!--Alex Code-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Bootstrap link-->
+  <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+  <!--main css link-->
+  <link rel="stylesheet" href="../static/css/main.css">
+  <!--fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  <title>website structure</title>
+</head>
+<body>
+  <header id="header" class="header">
+    <div class="container">
+      <div class="row d-flex justify-content-lg-between">
+        <div class="col-lg-5 head__1">
+          <img src="http://sindilimpba.org.br/wp-content/uploads/2015/04/125x125.gif" alt="avatar" class="Avatar__picture">
+          <div class="blok__init"><h1>Nelsen, Zehe & Antas, PC</h1></div>
+        </div>
+
+        <div class="col-lg-3 head__2"><div class="uname">You sign as:  
+          {{current_user.username}}
+          <br>
+          <a href="/logout" class="log__out">logout</a>
+          <br>
+          <a href="/contact"class="log__out">leave a message</a>
+
+        </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="container nav__bar">
+      <div class="row d-flex justify-content-space-beetwen">
+        <div class="col-lg-2 mr-auto navigation__bar"><a href="who_we_are">who we are</a></div>
+        <div class="col-lg-2 mr-auto navigation__bar"><a href="/what_we_do">what we do</a></div>
+        <div class="col-lg-2 mr-auto navigation__bar"><a href="/">news and events</a></div>
+        <div class="col-lg-2 mr-auto navigation__bar"><a href="#">where we work</a></div>
+        <div class="col-lg-2 mr-auto navigation__bar"><a href="/register">sign up</a></div>
+        <div class="col-lg-2 mr-auto navigation__bar"><a href="/login">sign in</a></div>
+        
+
+         
+      </div>
+    </div>
+  </header>
+
+
+      {% block content %}
+
+      {% endblock content %}
+    
+
+<footer>
+  <div class="container">
+    <div class="col-lg-12 footer__container">
+      <h6>HOME - WHO WE ARE - WHAT WE DO - NEWS & EVENTS -WHERE WE WORK -CONTACT</h6>
+<p>© 2009 Nelson, Zehe & Antas. PC.// Website Design by OneTen Creative</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+<!--Alex code-->

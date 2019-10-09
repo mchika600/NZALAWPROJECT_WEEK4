@@ -1,0 +1,37 @@
+.sidebar_left{
+  padding-top: 20px;
+  padding-left: 7px;
+  padding-bottom: 10px;
+  background-color: #8D1717;
+  font-size: 20px;
+  color:#fff;
+  
+
+}
+
+.sidebar_left h5{
+  border-bottom: 2px solid  #fff;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+}
+
+.sidebar_left li{
+list-style-type: none;
+}
+
+.sidebar_left a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.data_class1{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+
+
+.data_picture1{
+  width: 49%;
+  margin:auto;
+}
